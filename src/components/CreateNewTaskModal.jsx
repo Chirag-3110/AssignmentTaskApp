@@ -38,14 +38,15 @@ const CreateNewTask = forwardRef((props, ref) => {
 
 const styles=StyleSheet.create({
     animtedView: {
-        backgroundColor: "white",
+        backgroundColor:"#F2F2F2",
         width,
         alignItems: "center",
         justifyContent: "center",
         position:"absolute",
         bottom:-height,
-        paddingHorizontal:10,
-        paddingVertical:25
+        paddingVertical:25,
+        borderTopLeftRadius:40,
+        borderTopRightRadius:40
     },
 })
 export default CreateNewTask
