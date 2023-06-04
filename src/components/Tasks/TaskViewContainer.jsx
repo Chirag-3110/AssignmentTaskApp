@@ -11,11 +11,11 @@ const TaskViewContainer = () => {
             {[
                 selectedTaskDesc && selectedTaskTitle ?
                 <View>
-                    <TitleDesc title={"Tast Title"} value={selectedTaskTitle} fontsize={22} fontweight={"bold"} />
+                    <TitleDesc title={"Task Title"} value={selectedTaskTitle} fontsize={22} fontweight={"bold"} />
                     <TitleDesc 
                         fontweight={"600"}
                         fontsize={15}
-                        title={"Descriptions"} 
+                        title={"Description"} 
                         value={selectedTaskDesc} 
                     />
                 </View>:
